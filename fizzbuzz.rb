@@ -3,10 +3,10 @@
 def fizzbuzz(int)
   if int % 3 == 0
    "Fizz_3"
-  elseif int % 5 == 0
+  else int % 5 == 0
    "Buzz"
-  else int % 3 && 5 == 0
-   "FizzBuzz"
+  #else int % 3 && 5 == 0
+   #{}"FizzBuzz"
 # else "nil"
 
   end

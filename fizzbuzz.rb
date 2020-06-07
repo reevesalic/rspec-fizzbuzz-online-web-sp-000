@@ -3,11 +3,5 @@
 def fizzbuzz(int)
   return "FizzBuzz" if (int % 3 == 0) && (int % 5 == 0)
   return "Fizz" if int % 3 == 0
-#   "Fizz"
-#  elseif int % 5 == 0
-#   "Buzz"
-  ##else int % 15 == 0
-   #{#}"FizzBuzz"
-  #else "nil"
-  #end
+  return "Buzz: if int % 5 == 0
 end

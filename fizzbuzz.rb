@@ -2,8 +2,7 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
   return "FizzBuzz" if (int % 3 == 0) && (int % 5 == 0)
-  #  puts "fizzbuzz"
-#  else if int % 3 == 0
+  return "Buzz" if int % 3 == 0
 #   "Fizz"
 #  elseif int % 5 == 0
 #   "Buzz"
